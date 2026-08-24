@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "0b99e6bd-f598-47bf-84ad-0f17ff1e75a8",
+  "path": "grill-with-docs",
+  "path_key": "grill-with-docs",
+  "enabled": true,
+  "tags": [
+    "matt pocock/skills"
+  ],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

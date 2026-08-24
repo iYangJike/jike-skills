@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "b40e6e62-38cf-47e5-835f-2a47c4f5be9f",
+  "path": "lark-skill-maker",
+  "path_key": "lark-skill-maker",
+  "enabled": true,
+  "tags": [
+    "lark-cli"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/larksuite/cli",
+    "subpath": "skills/lark-skill-maker",
+    "branch": null
+  }
+}

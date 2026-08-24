@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3b76a130-59ed-4337-a895-b46ca9299b93",
+  "path": "lark-whiteboard",
+  "path_key": "lark-whiteboard",
+  "enabled": true,
+  "tags": [
+    "lark-cli"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/larksuite/cli",
+    "subpath": "skills/lark-whiteboard",
+    "branch": null
+  }
+}

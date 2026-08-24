@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "c74d1e06-5c01-4969-b3d6-154f46b9596b",
+  "path": "lark-meeting",
+  "path_key": "lark-meeting",
+  "enabled": true,
+  "tags": [
+    "lark-cli"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/larksuite/cli",
+    "subpath": "skills/lark-meeting",
+    "branch": null
+  }
+}

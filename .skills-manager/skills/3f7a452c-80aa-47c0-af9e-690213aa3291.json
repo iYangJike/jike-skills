@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "3f7a452c-80aa-47c0-af9e-690213aa3291",
+  "path": "baoyu-xhs-images",
+  "path_key": "baoyu-xhs-images",
+  "enabled": true,
+  "tags": [
+    "FE/skills"
+  ],
+  "source": {
+    "type": "skillssh",
+    "ref": "jimliu/baoyu-skills/baoyu-xhs-images",
+    "subpath": "skills/baoyu-xhs-images",
+    "branch": null
+  }
+}

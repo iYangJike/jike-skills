@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cd4152f4-2bca-4e44-9351-b0982eb938ed",
+  "name": "FE",
+  "description": "前端开发相关",
+  "icon": "book-open",
+  "sort_order": 999
+}

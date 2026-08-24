@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "scenario_id": "e93d5a44-6e5a-473a-b91d-8ea50dd8ac95",
+  "name": "Base",
+  "description": "Default startup scenario",
+  "icon": "wrench",
+  "sort_order": 0
+}

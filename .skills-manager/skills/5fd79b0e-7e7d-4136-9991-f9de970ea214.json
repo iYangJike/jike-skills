@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "5fd79b0e-7e7d-4136-9991-f9de970ea214",
+  "path": "lark-slides",
+  "path_key": "lark-slides",
+  "enabled": true,
+  "tags": [
+    "lark-cli"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/larksuite/cli",
+    "subpath": "skills/lark-slides",
+    "branch": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "skill_id": "be8b0e9f-757e-4988-bc52-ee00c87bcea2",
+  "path": "lark-mail",
+  "path_key": "lark-mail",
+  "enabled": true,
+  "tags": [
+    "lark-cli"
+  ],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/larksuite/cli",
+    "subpath": "skills/lark-mail",
+    "branch": null
+  }
+}
