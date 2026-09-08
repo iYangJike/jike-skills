@@ -4,7 +4,9 @@
   "path": "find-skills",
   "path_key": "find-skills",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "obra/superpowers"
+  ],
   "source": {
     "type": "import",
     "ref": null,

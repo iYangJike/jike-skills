@@ -8,6 +8,8 @@
     "codex": true,
     "continue": true,
     "cursor": true,
-    "github_copilot": true
+    "deepseek_harness": true,
+    "github_copilot": true,
+    "hermes": true
   }
 }
