@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "530944a2-79ed-4c53-8452-cb636f0159c2",
+  "path": "Inversion Exercise",
+  "path_key": "inversion exercise",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/obra/superpowers-skills",
+    "subpath": "skills/problem-solving/inversion-exercise",
+    "branch": null
+  }
+}

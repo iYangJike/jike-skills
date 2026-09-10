@@ -8,8 +8,8 @@
     "matt pocock/skills"
   ],
   "source": {
-    "type": "skillssh",
-    "ref": "mattpocock/skills/handoff",
+    "type": "git",
+    "ref": "https://github.com/mattpocock/skills",
     "subpath": "skills/productivity/handoff",
     "branch": null
   }

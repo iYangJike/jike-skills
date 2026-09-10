@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a2224f1a-7e4c-47f8-85d1-bc5ed610af58",
+  "path": "writing-for-agents",
+  "path_key": "writing-for-agents",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/mattpocock/skills",
+    "subpath": "skills/productivity/writing-for-agents",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3cbf2f86-6798-445f-b8fe-9e22fa755fd6",
+  "path": "baoyu-diagram",
+  "path_key": "baoyu-diagram",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/JimLiu/baoyu-skills",
+    "subpath": "skills/baoyu-diagram",
+    "branch": null
+  }
+}

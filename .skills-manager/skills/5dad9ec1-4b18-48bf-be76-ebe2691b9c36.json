@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5dad9ec1-4b18-48bf-be76-ebe2691b9c36",
+  "path": "baoyu-post-to-weibo",
+  "path_key": "baoyu-post-to-weibo",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/JimLiu/baoyu-skills",
+    "subpath": "skills/baoyu-post-to-weibo",
+    "branch": null
+  }
+}

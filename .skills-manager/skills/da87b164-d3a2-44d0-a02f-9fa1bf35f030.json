@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "da87b164-d3a2-44d0-a02f-9fa1bf35f030",
+  "path": "writing-shape",
+  "path_key": "writing-shape",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/mattpocock/skills",
+    "subpath": "skills/in-progress/writing-shape",
+    "branch": null
+  }
+}

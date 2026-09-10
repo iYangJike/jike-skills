@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f16701b4-b189-4170-a81c-02bbac5b31ae",
+  "path": "Test-Driven Development (TDD)",
+  "path_key": "test-driven development (tdd)",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/obra/superpowers-skills",
+    "subpath": "skills/testing/test-driven-development",
+    "branch": null
+  }
+}

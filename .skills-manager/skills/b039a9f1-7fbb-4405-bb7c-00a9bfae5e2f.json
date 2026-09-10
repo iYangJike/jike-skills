@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b039a9f1-7fbb-4405-bb7c-00a9bfae5e2f",
+  "path": "Testing Anti-Patterns",
+  "path_key": "testing anti-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/obra/superpowers-skills",
+    "subpath": "skills/testing/testing-anti-patterns",
+    "branch": null
+  }
+}

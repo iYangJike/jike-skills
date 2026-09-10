@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cecd1e95-6a75-47cb-a1a1-8c5d87cc1c5d",
+  "path": "Scale Game",
+  "path_key": "scale game",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/obra/superpowers-skills",
+    "subpath": "skills/problem-solving/scale-game",
+    "branch": null
+  }
+}

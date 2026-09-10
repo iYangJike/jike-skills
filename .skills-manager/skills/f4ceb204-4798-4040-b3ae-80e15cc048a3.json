@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f4ceb204-4798-4040-b3ae-80e15cc048a3",
+  "path": "baoyu-cover-image",
+  "path_key": "baoyu-cover-image",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/JimLiu/baoyu-skills",
+    "subpath": "skills/baoyu-cover-image",
+    "branch": null
+  }
+}

@@ -8,8 +8,8 @@
     "FE/skills"
   ],
   "source": {
-    "type": "skillssh",
-    "ref": "jimliu/baoyu-skills/baoyu-xhs-images",
+    "type": "git",
+    "ref": "https://github.com/JimLiu/baoyu-skills",
     "subpath": "skills/baoyu-xhs-images",
     "branch": null
   }

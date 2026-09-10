@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fcf0c536-d6f1-4ba9-be8e-94a8fda64963",
+  "path": "Defense-in-Depth Validation",
+  "path_key": "defense-in-depth validation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/obra/superpowers-skills",
+    "subpath": "skills/debugging/defense-in-depth",
+    "branch": null
+  }
+}

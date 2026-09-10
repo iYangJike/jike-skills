@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ad7a4535-ac9e-439c-adc8-ed8ddceeeb92",
+  "path": "Code Review Reception",
+  "path_key": "code review reception",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/obra/superpowers-skills",
+    "subpath": "skills/collaboration/receiving-code-review",
+    "branch": null
+  }
+}

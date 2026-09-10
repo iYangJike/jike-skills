@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "13e7d7fc-39f6-4fbf-90a0-e79a2602d2cb",
+  "path": "diagnosing-bugs",
+  "path_key": "diagnosing-bugs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/mattpocock/skills",
+    "subpath": "skills/engineering/diagnosing-bugs",
+    "branch": null
+  }
+}

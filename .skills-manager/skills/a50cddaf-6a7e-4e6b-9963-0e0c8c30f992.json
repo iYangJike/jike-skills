@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a50cddaf-6a7e-4e6b-9963-0e0c8c30f992",
+  "path": "Getting Started with Skills",
+  "path_key": "getting started with skills",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/obra/superpowers-skills",
+    "subpath": "skills/using-skills",
+    "branch": null
+  }
+}

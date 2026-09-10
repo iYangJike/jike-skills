@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "760819ee-ef98-4bf5-a442-e19b0c2509aa",
+  "path": "Root Cause Tracing",
+  "path_key": "root cause tracing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/obra/superpowers-skills",
+    "subpath": "skills/debugging/root-cause-tracing",
+    "branch": null
+  }
+}

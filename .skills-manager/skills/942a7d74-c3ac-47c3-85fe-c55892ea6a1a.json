@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "942a7d74-c3ac-47c3-85fe-c55892ea6a1a",
+  "path": "baoyu-post-to-wechat",
+  "path_key": "baoyu-post-to-wechat",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/JimLiu/baoyu-skills",
+    "subpath": "skills/baoyu-post-to-wechat",
+    "branch": null
+  }
+}

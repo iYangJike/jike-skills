@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "54925314-c503-4e2b-bd4b-7accbd8b09bd",
+  "path": "Tracing Knowledge Lineages",
+  "path_key": "tracing knowledge lineages",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/obra/superpowers-skills",
+    "subpath": "skills/research/tracing-knowledge-lineages",
+    "branch": null
+  }
+}

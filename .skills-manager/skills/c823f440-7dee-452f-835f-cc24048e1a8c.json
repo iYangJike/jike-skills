@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c823f440-7dee-452f-835f-cc24048e1a8c",
+  "path": "baoyu-slide-deck",
+  "path_key": "baoyu-slide-deck",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/JimLiu/baoyu-skills",
+    "subpath": "skills/baoyu-slide-deck",
+    "branch": null
+  }
+}

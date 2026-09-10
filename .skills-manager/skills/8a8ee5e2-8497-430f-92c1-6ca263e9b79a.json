@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8a8ee5e2-8497-430f-92c1-6ca263e9b79a",
+  "path": "Gardening Skills Wiki",
+  "path_key": "gardening skills wiki",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/obra/superpowers-skills",
+    "subpath": "skills/meta/gardening-skills-wiki",
+    "branch": null
+  }
+}

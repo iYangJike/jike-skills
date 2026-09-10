@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1b45ec9c-0104-4449-ac9f-3b3505475fb8",
+  "path": "Testing Skills With Subagents",
+  "path_key": "testing skills with subagents",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/obra/superpowers-skills",
+    "subpath": "skills/meta/testing-skills-with-subagents",
+    "branch": null
+  }
+}

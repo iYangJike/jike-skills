@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0178fffa-dd4e-46ea-81b1-8b154cbb12c0",
+  "path": "Sharing Skills",
+  "path_key": "sharing skills",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/obra/superpowers-skills",
+    "subpath": "skills/meta/sharing-skills",
+    "branch": null
+  }
+}

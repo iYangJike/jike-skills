@@ -8,8 +8,8 @@
     "matt pocock/skills"
   ],
   "source": {
-    "type": "skillssh",
-    "ref": "mattpocock/skills/resolving-merge-conflicts",
+    "type": "git",
+    "ref": "https://github.com/mattpocock/skills",
     "subpath": "skills/engineering/resolving-merge-conflicts",
     "branch": null
   }

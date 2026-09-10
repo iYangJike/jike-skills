@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "18e9ff9e-5cf6-4e36-9b1b-28a556f2647f",
+  "path": "to-tickets",
+  "path_key": "to-tickets",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/mattpocock/skills",
+    "subpath": "skills/engineering/to-tickets",
+    "branch": null
+  }
+}

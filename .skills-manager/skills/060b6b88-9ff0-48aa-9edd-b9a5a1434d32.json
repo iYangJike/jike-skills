@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "060b6b88-9ff0-48aa-9edd-b9a5a1434d32",
+  "path": "When Stuck - Problem-Solving Dispatch",
+  "path_key": "when stuck - problem-solving dispatch",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/obra/superpowers-skills",
+    "subpath": "skills/problem-solving/when-stuck",
+    "branch": null
+  }
+}

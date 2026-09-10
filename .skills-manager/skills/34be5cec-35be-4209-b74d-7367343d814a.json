@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "34be5cec-35be-4209-b74d-7367343d814a",
+  "path": "Collision-Zone Thinking",
+  "path_key": "collision-zone thinking",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/obra/superpowers-skills",
+    "subpath": "skills/problem-solving/collision-zone-thinking",
+    "branch": null
+  }
+}

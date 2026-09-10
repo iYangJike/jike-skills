@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7db32cc4-b9ee-4630-936e-6a579665de57",
+  "path": "Condition-Based Waiting",
+  "path_key": "condition-based waiting",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/obra/superpowers-skills",
+    "subpath": "skills/testing/condition-based-waiting",
+    "branch": null
+  }
+}

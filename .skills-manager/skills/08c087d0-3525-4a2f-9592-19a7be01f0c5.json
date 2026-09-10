@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "08c087d0-3525-4a2f-9592-19a7be01f0c5",
+  "path": "setup-matt-pocock-skills",
+  "path_key": "setup-matt-pocock-skills",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/mattpocock/skills",
+    "subpath": "skills/engineering/setup-matt-pocock-skills",
+    "branch": null
+  }
+}
