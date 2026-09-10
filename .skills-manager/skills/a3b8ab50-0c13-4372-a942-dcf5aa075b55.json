@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a3b8ab50-0c13-4372-a942-dcf5aa075b55",
+  "path": "manage-skills-2",
+  "path_key": "manage-skills-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "xingkongliang/skills-manager/manage-skills",
+    "subpath": "skills/manage-skills",
+    "branch": null
+  }
+}
