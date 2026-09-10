@@ -4,7 +4,9 @@
   "path": "Testing Anti-Patterns",
   "path_key": "testing anti-patterns",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "superpowers"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/obra/superpowers-skills",

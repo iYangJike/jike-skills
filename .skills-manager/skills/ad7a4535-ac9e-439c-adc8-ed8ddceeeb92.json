@@ -4,7 +4,9 @@
   "path": "Code Review Reception",
   "path_key": "code review reception",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "superpowers"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/obra/superpowers-skills",

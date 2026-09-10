@@ -4,7 +4,9 @@
   "path": "Verification Before Completion",
   "path_key": "verification before completion",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "superpowers"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/obra/superpowers-skills",

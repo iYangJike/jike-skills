@@ -4,7 +4,9 @@
   "path": "setup-matt-pocock-skills",
   "path_key": "setup-matt-pocock-skills",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "matt-pocock"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/mattpocock/skills",

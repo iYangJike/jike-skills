@@ -4,7 +4,9 @@
   "path": "baoyu-markdown-to-html",
   "path_key": "baoyu-markdown-to-html",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "baoyu-skills"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/JimLiu/baoyu-skills",

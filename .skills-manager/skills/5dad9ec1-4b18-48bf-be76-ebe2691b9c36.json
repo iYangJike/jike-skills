@@ -4,7 +4,9 @@
   "path": "baoyu-post-to-weibo",
   "path_key": "baoyu-post-to-weibo",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "baoyu-skills"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/JimLiu/baoyu-skills",

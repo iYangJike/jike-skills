@@ -4,7 +4,9 @@
   "path": "implement-spec",
   "path_key": "implement-spec",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "matt-pocock"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/mattpocock/skills",

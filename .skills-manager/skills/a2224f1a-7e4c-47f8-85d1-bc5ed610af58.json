@@ -4,7 +4,9 @@
   "path": "writing-for-agents",
   "path_key": "writing-for-agents",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "matt-pocock"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/mattpocock/skills",

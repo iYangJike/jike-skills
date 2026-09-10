@@ -4,7 +4,9 @@
   "path": "using-git-worktrees",
   "path_key": "using-git-worktrees",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "superpowers"
+  ],
   "source": {
     "type": "skillssh",
     "ref": "obra/superpowers/using-git-worktrees",

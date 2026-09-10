@@ -4,7 +4,9 @@
   "path": "writing-fragments",
   "path_key": "writing-fragments",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "matt-pocock"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/mattpocock/skills",

@@ -4,7 +4,9 @@
   "path": "Writing Plans",
   "path_key": "writing plans",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "superpowers"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/obra/superpowers-skills",

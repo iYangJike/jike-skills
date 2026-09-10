@@ -4,7 +4,9 @@
   "path": "Getting Started with Skills",
   "path_key": "getting started with skills",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "superpowers"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/obra/superpowers-skills",

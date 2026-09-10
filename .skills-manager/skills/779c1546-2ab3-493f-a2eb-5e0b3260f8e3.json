@@ -5,7 +5,7 @@
   "path_key": "writing-plans",
   "enabled": true,
   "tags": [
-    "obra/superpowers"
+    "superpowers"
   ],
   "source": {
     "type": "skillssh",

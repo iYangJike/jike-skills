@@ -5,7 +5,7 @@
   "path_key": "web-design-guidelines",
   "enabled": true,
   "tags": [
-    "FE/skills"
+    "vercel"
   ],
   "source": {
     "type": "skillssh",

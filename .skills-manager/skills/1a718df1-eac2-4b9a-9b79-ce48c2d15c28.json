@@ -4,7 +4,9 @@
   "path": "prototype",
   "path_key": "prototype",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "matt-pocock"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/mattpocock/skills",

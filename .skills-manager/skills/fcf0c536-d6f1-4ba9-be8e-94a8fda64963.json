@@ -4,7 +4,9 @@
   "path": "Defense-in-Depth Validation",
   "path_key": "defense-in-depth validation",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "superpowers"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/obra/superpowers-skills",

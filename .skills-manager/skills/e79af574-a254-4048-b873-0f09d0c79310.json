@@ -5,7 +5,7 @@
   "path_key": "vercel-react-best-practices",
   "enabled": true,
   "tags": [
-    "FE/skills"
+    "vercel"
   ],
   "source": {
     "type": "skillssh",

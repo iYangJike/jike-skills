@@ -5,7 +5,7 @@
   "path_key": "frontend-design",
   "enabled": true,
   "tags": [
-    "FE/skills"
+    "anthropic"
   ],
   "source": {
     "type": "skillssh",

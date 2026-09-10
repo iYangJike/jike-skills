@@ -4,7 +4,9 @@
   "path": "Test-Driven Development (TDD)",
   "path_key": "test-driven development (tdd)",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "superpowers"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/obra/superpowers-skills",

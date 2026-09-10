@@ -4,7 +4,9 @@
   "path": "to-spec",
   "path_key": "to-spec",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "matt-pocock"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/mattpocock/skills",

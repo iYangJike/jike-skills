@@ -4,9 +4,7 @@
   "path": "grill-me",
   "path_key": "grill-me",
   "enabled": true,
-  "tags": [
-    "matt pocock/skills"
-  ],
+  "tags": [],
   "source": {
     "type": "import",
     "ref": null,

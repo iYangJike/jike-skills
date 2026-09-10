@@ -4,7 +4,9 @@
   "path": "Gardening Skills Wiki",
   "path_key": "gardening skills wiki",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "superpowers"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/obra/superpowers-skills",

@@ -5,7 +5,7 @@
   "path_key": "baoyu-image-gen",
   "enabled": true,
   "tags": [
-    "FE/skills"
+    "baoyu-skills"
   ],
   "source": {
     "type": "skillssh",

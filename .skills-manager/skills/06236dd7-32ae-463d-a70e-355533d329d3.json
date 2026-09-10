@@ -4,7 +4,9 @@
   "path": "claude-handoff",
   "path_key": "claude-handoff",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "matt-pocock"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/mattpocock/skills",

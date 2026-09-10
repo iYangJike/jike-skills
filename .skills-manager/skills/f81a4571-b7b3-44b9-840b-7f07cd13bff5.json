@@ -5,7 +5,7 @@
   "path_key": "brainstorming",
   "enabled": true,
   "tags": [
-    "obra/superpowers"
+    "superpowers"
   ],
   "source": {
     "type": "skillssh",

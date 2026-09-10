@@ -4,7 +4,9 @@
   "path": "Testing Skills With Subagents",
   "path_key": "testing skills with subagents",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "superpowers"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/obra/superpowers-skills",

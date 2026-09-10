@@ -4,7 +4,9 @@
   "path": "Preserving Productive Tensions",
   "path_key": "preserving productive tensions",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "superpowers"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/obra/superpowers-skills",

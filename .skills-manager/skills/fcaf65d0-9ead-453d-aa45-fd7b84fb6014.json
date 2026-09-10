@@ -4,7 +4,9 @@
   "path": "setup-pre-commit",
   "path_key": "setup-pre-commit",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "matt-pocock"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/mattpocock/skills",

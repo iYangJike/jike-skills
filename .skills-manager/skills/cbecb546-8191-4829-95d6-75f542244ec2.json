@@ -4,7 +4,9 @@
   "path": "wizard",
   "path_key": "wizard",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "matt-pocock"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/mattpocock/skills",

@@ -4,7 +4,9 @@
   "path": "Remembering Conversations",
   "path_key": "remembering conversations",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "superpowers"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/obra/superpowers-skills",

@@ -4,7 +4,9 @@
   "path": "setup-ts-deep-modules",
   "path_key": "setup-ts-deep-modules",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "matt-pocock"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/mattpocock/skills",

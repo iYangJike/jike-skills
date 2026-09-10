@@ -4,7 +4,9 @@
   "path": "baoyu-wechat-summary",
   "path_key": "baoyu-wechat-summary",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "baoyu-skills"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/JimLiu/baoyu-skills",

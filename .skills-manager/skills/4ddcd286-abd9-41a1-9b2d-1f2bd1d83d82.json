@@ -4,7 +4,9 @@
   "path": "baoyu-comic",
   "path_key": "baoyu-comic",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "baoyu-skills"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/JimLiu/baoyu-skills",

@@ -4,7 +4,9 @@
   "path": "Root Cause Tracing",
   "path_key": "root cause tracing",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "superpowers"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/obra/superpowers-skills",

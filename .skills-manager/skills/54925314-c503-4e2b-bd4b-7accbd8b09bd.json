@@ -4,7 +4,9 @@
   "path": "Tracing Knowledge Lineages",
   "path_key": "tracing knowledge lineages",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "superpowers"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/obra/superpowers-skills",

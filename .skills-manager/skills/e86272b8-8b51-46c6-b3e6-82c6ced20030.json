@@ -4,9 +4,7 @@
   "path": "teach",
   "path_key": "teach",
   "enabled": true,
-  "tags": [
-    "matt pocock/skills"
-  ],
+  "tags": [],
   "source": {
     "type": "import",
     "ref": null,

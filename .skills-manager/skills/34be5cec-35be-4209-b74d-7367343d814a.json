@@ -4,7 +4,9 @@
   "path": "Collision-Zone Thinking",
   "path_key": "collision-zone thinking",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "superpowers"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/obra/superpowers-skills",

@@ -4,7 +4,9 @@
   "path": "manage-skills",
   "path_key": "manage-skills",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "skills-manager"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/xingkongliang/skills-manager/tree/main/skills/manage-skills",

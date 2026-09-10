@@ -4,7 +4,9 @@
   "path": "Scale Game",
   "path_key": "scale game",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "superpowers"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/obra/superpowers-skills",

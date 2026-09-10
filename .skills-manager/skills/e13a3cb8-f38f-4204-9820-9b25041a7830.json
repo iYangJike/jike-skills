@@ -4,7 +4,9 @@
   "path": "grill-with-docs-2",
   "path_key": "grill-with-docs-2",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "matt-pocock"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/mattpocock/skills",

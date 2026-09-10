@@ -4,7 +4,9 @@
   "path": "baoyu-image-gen-2",
   "path_key": "baoyu-image-gen-2",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "baoyu-skills"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/JimLiu/baoyu-skills",

@@ -4,7 +4,9 @@
   "path": "Subagent-Driven Development",
   "path_key": "subagent-driven development",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "superpowers"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/obra/superpowers-skills",

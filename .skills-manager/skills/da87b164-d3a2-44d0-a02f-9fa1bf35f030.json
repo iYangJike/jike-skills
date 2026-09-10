@@ -4,7 +4,9 @@
   "path": "writing-shape",
   "path_key": "writing-shape",
   "enabled": true,
-  "tags": [],
+  "tags": [
+    "matt-pocock"
+  ],
   "source": {
     "type": "git",
     "ref": "https://github.com/mattpocock/skills",

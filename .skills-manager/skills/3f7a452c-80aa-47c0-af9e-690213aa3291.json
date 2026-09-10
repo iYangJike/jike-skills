@@ -5,7 +5,7 @@
   "path_key": "baoyu-xhs-images",
   "enabled": true,
   "tags": [
-    "FE/skills"
+    "baoyu-skills"
   ],
   "source": {
     "type": "git",
