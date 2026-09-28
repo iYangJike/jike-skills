@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "491cfe34-42a7-4aac-b420-f60dbc99e238",
+  "path": "yt-dlp-downloader",
+  "path_key": "yt-dlp-downloader",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/mapleshaw/yt-dlp-downloader-skill",
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -10,6 +10,7 @@
     "cursor": true,
     "deepseek_harness": true,
     "github_copilot": true,
-    "hermes": true
+    "hermes": true,
+    "opencode": true
   }
 }
