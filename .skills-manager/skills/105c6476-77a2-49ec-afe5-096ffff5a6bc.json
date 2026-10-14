@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "105c6476-77a2-49ec-afe5-096ffff5a6bc",
+  "path": "i小杨の资料",
+  "path_key": "i小杨の资料",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

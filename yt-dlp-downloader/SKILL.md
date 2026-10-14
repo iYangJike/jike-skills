@@ -35,10 +35,14 @@ yt-dlp -P "~/Downloads/yt-dlp" "VIDEO_URL"
 
 ### YouTube Download (Recommended - with cookies)
 
-YouTube often blocks direct downloads with 403 errors. Always use browser cookies for YouTube:
+YouTube often blocks direct downloads with 403 errors. Always use browser cookies for YouTube.
+
+Newer yt-dlp (2025.11+) also solves YouTube JS challenges (EJS), which requires:
+1. The `yt-dlp-ejs` package — for pipx installs run: `pipx inject yt-dlp yt-dlp-ejs`
+2. An enabled JS runtime — node 20+ works; pass it explicitly with `--js-runtimes node`
 
 ```bash
-yt-dlp -P "~/Downloads/yt-dlp" --cookies-from-browser chrome "YOUTUBE_URL"
+yt-dlp -P "~/Downloads/yt-dlp" --js-runtimes node --cookies-from-browser chrome "YOUTUBE_URL"
 ```
 
 Supported browsers: `chrome`, `firefox`, `safari`, `edge`, `brave`, `opera`
@@ -113,6 +117,16 @@ yt-dlp -P "~/Downloads/yt-dlp" -I 1:5 "PLAYLIST_URL"
 yt-dlp -P "~/Downloads/yt-dlp" --write-thumbnail "VIDEO_URL"
 ```
 
+### 8. Download MP4 (QuickTime/iOS compatible)
+
+The default "best quality" pick often pairs an mp4 video stream with opus (webm) audio. Those two cannot merge into mp4, so yt-dlp falls back to an **.mkv** output — which macOS QuickTime cannot play. For maximum compatibility force H.264 + AAC in an mp4 container:
+
+```bash
+yt-dlp -P "~/Downloads/yt-dlp" -f "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]/b" --merge-output-format mp4 "VIDEO_URL"
+```
+
+Note: this caps quality at whatever mp4 (H.264) streams are available (usually 1080p). Above 1080p, YouTube only offers VP9/AV1 webm video, so >1080p downloads are always .webm/.mkv.
+
 ## Workflow
 
 When user provides a video URL:
@@ -183,8 +197,10 @@ Full list: https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md
 
 | Error | Cause | Solution |
 |-------|-------|----------|
+| Signature solving failed / "n challenge solving failed" / "The page needs to be reloaded" | Missing `yt-dlp-ejs` solver package or no JS runtime enabled | `pipx inject yt-dlp yt-dlp-ejs`, then add `--js-runtimes node` (node 20+) |
 | HTTP 403 Forbidden | YouTube blocks unauthenticated requests | Use `--cookies-from-browser chrome` |
 | Video unavailable | Geo-restricted or private | Use cookies or VPN |
+| Output is .mkv and QuickTime can't open it | Merged mp4 video + opus audio forces mkv container; QuickTime lacks mkv/opus support | Re-download with `-f "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]/b" --merge-output-format mp4` |
 | Download interrupted | Network issues | Retry - yt-dlp auto-resumes |
 | Format not available | Requested format doesn't exist | Use `-F` to list formats |
 
@@ -208,6 +224,20 @@ yt-dlp -P "~/Downloads/yt-dlp" --cookies-from-browser chrome "YOUTUBE_URL"
 ```
 
 Supported browsers: `chrome`, `firefox`, `safari`, `edge`, `brave`, `opera`
+
+### Error: "Signature solving failed" / "The page needs to be reloaded" (YouTube)
+
+Newer yt-dlp versions solve YouTube's JS challenges via the EJS framework. If you see `Signature solving failed` or `n challenge solving failed` warnings followed by `ERROR: The page needs to be reloaded`, you're missing one of:
+
+1. **Solver scripts** — install into the same environment as yt-dlp:
+   ```bash
+   pipx inject yt-dlp yt-dlp-ejs   # for pipx installs; pip install yt-dlp-ejs for pip venvs
+   ```
+2. **JS runtime** — node 20+, deno, bun, or quickjs. Enable explicitly:
+   ```bash
+   yt-dlp --js-runtimes node --cookies-from-browser chrome "URL"
+   ```
+   deno is yt-dlp's default runtime if installed (`brew install deno`).
 
 ### Error: Video unavailable or geo-restricted
 ```bash
