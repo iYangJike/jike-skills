@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0084b343-9686-42d2-be03-5b5ff83d57c7",
+  "path": "stock-skills",
+  "path_key": "stock-skills",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "local",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
