@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 # ============ helpers ============
 import socket
-from mootdx.quotes import Quotes
+# [skipped at import] from mootdx.quotes import Quotes
 _TDX_SERVERS = [('119.97.185.59', 7709), ('124.70.133.119', 7709), ('116.205.183.150', 7709), ('123.60.73.44', 7709), ('116.205.163.254', 7709), ('121.36.225.169', 7709), ('123.60.70.228', 7709), ('124.71.9.153', 7709), ('110.41.147.114', 7709), ('124.71.187.122', 7709)]
 
 def _probe(ip, port, timeout=2.0):
@@ -890,7 +890,7 @@ def apply_adjust(bars, factors: list, kind: str='qfq', price_keys=('open', 'high
 qfq = sina_adjust_factor('600519', 'qfq')
 hfq = sina_adjust_factor('600519', 'hfq')
 bars = [{'date': '2015-01-05', 'close': 202.52}]
-from mootdx.quotes import Quotes
+# [skipped at import] from mootdx.quotes import Quotes
 client = tdx_client()
 klines = client.bars(symbol='688017', frequency=9, offset=10)
 min1 = client.bars(symbol='688017', frequency=8, offset=240)
